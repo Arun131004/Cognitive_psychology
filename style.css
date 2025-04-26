@@ -334,17 +334,36 @@ select:focus {
 
 /* Apply the neon lights effect to the main header */
 #typewriter-title, h1#typewriter-title {
-  font-size: 3.5rem;
+  font-size: clamp(2.2rem, 7vw, 4.5rem);
   font-weight: 700;
   text-align: center;
   margin-bottom: 32px;
   animation: lights 5s 750ms linear infinite;
   font-family: 'Orbitron', 'Montserrat', Arial, sans-serif;
   background: none;
-  -webkit-background-clip: initial;
-  -webkit-text-fill-color: initial;
-  background-clip: initial;
+  color: hsl(230, 100%, 95%);
   border: none;
   outline: none;
-  color: hsl(230, 100%, 95%);
+  word-break: break-word;
+  line-height: 1.1;
+  /* Responsive text-shadow for neon effect */
+  text-shadow:
+    2px 2px 0px #07bccc,
+    4px 4px 0px #e601c0,
+    6px 6px 0px #e9019a,
+    8px 8px 0px #f40468,
+    12px 12px 6px #482896;
+}
+
+@media (max-width: 600px) {
+  #typewriter-title, h1#typewriter-title {
+    font-size: clamp(1.2rem, 10vw, 2.5rem);
+    text-shadow:
+      1px 1px 0px #07bccc,
+      2px 2px 0px #e601c0,
+      3px 3px 0px #e9019a,
+      4px 4px 0px #f40468,
+      6px 6px 3px #482896;
+    margin-bottom: 18px;
+  }
 }
