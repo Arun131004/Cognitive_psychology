@@ -134,28 +134,23 @@ select:focus {
 }
 
 #options-container button::before {
-    content: "";
-    position: absolute;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
-    background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), #7abaff55 0%, #4e8cff22 60%, transparent 100%);
-    opacity: 0;
-    filter: blur(8px);
-    transition: opacity 0.28s cubic-bezier(.4,0,.2,1);
-    z-index: 0;
-    pointer-events: none;
+    content: none;
+    display: none;
 }
 
 #options-container button:hover::before {
-    opacity: 1;
+    content: none;
+    display: none;
 }
 
+/* Optionally, you can also remove any background/box-shadow changes on hover if you want a simple effect: */
 #options-container button:hover:not(:disabled) {
-    background: linear-gradient(90deg, #23272f 60%, #2c313a 100%);
+    background: #23272f;
     border-color: #7abaff;
     color: #7abaff;
-    box-shadow: 0 4px 24px 0 #7abaff22, 0 1.5px 8px rgba(74, 144, 226, 0.10);
+    box-shadow: none;
     transform: translateY(-1px) scale(1.012);
+    transition: box-shadow 0.2s, color 0.2s, transform 0.2s;
 }
 
 #options-container button:active:not(:disabled) {
