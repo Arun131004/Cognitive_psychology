@@ -34,12 +34,14 @@ function shuffleArray(array) {
 
 // Populate the week selector dropdown
 function populateWeekSelector() {
-    const uniqueWeeks = getUniqueWeeks(); // Assumes getUniqueWeeks() is in questions.js
+    const uniqueWeeks = getUniqueWeeks();
     uniqueWeeks.forEach(weekNum => {
-        const option = document.createElement('option');
-        option.value = weekNum;
-        option.textContent = `Week ${weekNum}`;
-        weekSelector.appendChild(option);
+        if (!isNaN(weekNum)) { // Only add numeric weeks
+            const option = document.createElement('option');
+            option.value = weekNum;
+            option.textContent = `Week ${weekNum}`;
+            weekSelector.appendChild(option);
+        }
     });
 
     // Add Marathon option
@@ -47,12 +49,25 @@ function populateWeekSelector() {
     marathonOption.value = "marathon";
     marathonOption.textContent = "Marathon (All Weeks)";
     weekSelector.appendChild(marathonOption);
+
+    // Add Other option
+    const otherOption = document.createElement('option');
+    otherOption.value = "other";
+    otherOption.textContent = "Other (General Questions)";
+    weekSelector.appendChild(otherOption);
 }
 
 // Load questions for the selected week or marathon
 function loadWeekQuestions(weekNum) {
     if (weekNum === "marathon") {
-        currentWeekQuestions = shuffleArray([...allQuestions]); // All questions, shuffled
+        // Exclude 'other' questions from marathon
+        currentWeekQuestions = shuffleArray(
+            allQuestions.filter(q => q.week !== 'other')
+        );
+    } else if (weekNum === "other") {
+        currentWeekQuestions = shuffleArray(
+            allQuestions.filter(q => q.week === 'other')
+        );
     } else {
         currentWeekQuestions = shuffleArray(
             allQuestions.filter(q => q.week === parseInt(weekNum))

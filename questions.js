@@ -1332,7 +1332,1085 @@ const allQuestions = [
             "availability bias."
         ],
         correctAnswer: "the sunk cost effect."
+    },
+
+
+
+
+
+
+
+
+
+    {
+        week: 'other',
+        question: 'Which of the following is the focus of decision making?',
+        options: [
+            'Making judgements about events',
+            'Choosing between available alternatives',
+            'Increasing the number of options',
+            'Eliminating all risks and uncertainties'
+        ],
+        correctAnswer: 'Choosing between available alternatives'
+    },
+    {
+        week: 'other',
+        question: 'According to the threshold approach of choice, when does the attractiveness of an option increase?',
+        options: [
+            'When the number of alternatives decreases',
+            'When the decision is not dependent on another event',
+            'As the probability of another event happening increases',
+            'When the minimum level of certainty is easily attained'
+        ],
+        correctAnswer: 'As the probability of another event happening increases'
+    },
+    {
+        week: 'other',
+        question: 'Over-confidence in judgement can lead to:',
+        options: [
+            'More rational decision making',
+            'Choosing rewarding alternatives',
+            'Attaining the minimum level of certainty too easily',
+            'A decrease in the probability of wrong choices'
+        ],
+        correctAnswer: 'Attaining the minimum level of certainty too easily'
+    },
+    {
+        week: 'other',
+        question: 'Economists are primarily interested in:',
+        options: [
+            'Describing all types of choice behaviour',
+            'The factors involved in choice',
+            'The inadequacy of decision-making models',
+            'The influence of culture on decision certainty'
+        ],
+        correctAnswer: 'The factors involved in choice'
+    },
+    {
+        week: 'other',
+        question: 'Expected utility theory is best described as a:',
+        options: [
+            'Descriptive model of decision making',
+            'Psychological account of choices',
+            'Normative approach to decision making',
+            'Model that always predicts human behaviour accurately'
+        ],
+        correctAnswer: 'Normative approach to decision making'
+    },
+    {
+        week: 'other',
+        question: 'A key limitation of expected utility theory as a descriptive model is that it assumes:',
+        options: [
+            'Humans often have limited alternatives',
+            'Humans always make irrational choices',
+            'Humans rarely have all the necessary information',
+            'Humans are always risk-averse'
+        ],
+        correctAnswer: 'Humans rarely have all the necessary information'
+    },
+    {
+        week: 'other',
+        question: 'MAUT is particularly useful when:',
+        options: [
+            'Choices are straightforward and have few dimensions',
+            'The decision depends on the likelihood of a single event',
+            'The choices differ on many dimensions',
+            'There are very few alternatives available'
+        ],
+        correctAnswer: 'The choices differ on many dimensions'
+    },
+    {
+        week: 'other',
+        question: 'The first step in applying MAUT is to:',
+        options: [
+            'Rank the alternatives along each dimension',
+            'Determine the relative weight of each dimension',
+            'Break the decision down into its important dimensions',
+            'List all of the alternatives'
+        ],
+        correctAnswer: 'Break the decision down into its important dimensions'
+    },
+    {
+        week: 'other',
+        question: 'In the final step of MAUT, one should:',
+        options: [
+            'Average the rankings across all dimensions',
+            'Choose the alternative with the lowest value',
+            'Multiply each ranking by the inverse of its weight',
+            'Choose the alternative with the highest value'
+        ],
+        correctAnswer: 'Choose the alternative with the highest value'
+    },
+    {
+        week: 'other',
+        question: 'Prospect theory is primarily a:',
+        options: [
+            'Normative model of decision making',
+            'Model that always aligns with expected utility',
+            'Descriptive model of decision making',
+            'Model focused on purely rational choices'
+        ],
+        correctAnswer: 'Descriptive model of decision making'
+    },
+    {
+        week: 'other',
+        question: 'According to prospect theory, when information is presented in a "gain frame", people tend to be:',
+        options: [
+            'Risk prone',
+            'Risk neutral',
+            'Risk averse',
+            'Equally likely to take or avoid risk'
+        ],
+        correctAnswer: 'Risk averse'
+    },
+    {
+        week: 'other',
+        question: 'In the classic Tversky & Kahneman (1981) study, the difference in choices between the "saved" and "die" framing of the disease problem highlights:',
+        options: [
+            'The consistency of human decision making under different presentations',
+            'The influence of the number of people affected on risk preference',
+            'The impact of framing on risk preference',
+            'The superiority of objective probabilities over perceived losses'
+        ],
+        correctAnswer: 'The impact of framing on risk preference'
+    },
+    {
+        week: 'other',
+        question: 'Psychological accounting suggests that people:',
+        options: [
+            'Always make consistent financial decisions',
+            'Make different decisions based on how outcomes are felt or perceived',
+            'Treat all money as completely fungible',
+            'Are unaffected by the context of a financial transaction'
+        ],
+        correctAnswer: 'Make different decisions based on how outcomes are felt or perceived'
+    },
+    {
+        week: 'other',
+        question: 'The examples of losing a ticket versus losing cash for a play highlight the role of:',
+        options: [
+            'Objective financial value in decision making',
+            'The interchangeability of different forms of money',
+            'How the same monetary loss can be perceived differently',
+            'The consistent application of economic principles'
+        ],
+        correctAnswer: 'How the same monetary loss can be perceived differently'
+    },
+    {
+        week: 'other',
+        question: 'Affect, in the context of decision making, refers to:',
+        options: [
+            'Deliberate and conscious reasoning',
+            'The logical evaluation of alternatives',
+            'Positive and negative feelings influencing choices',
+            'The scope and impact of a decision'
+        ],
+        correctAnswer: 'Positive and negative feelings influencing choices'
+    },
+    {
+        week: 'other',
+        question: 'The term "scope" in the context of affect and decision making refers to:',
+        options: [
+            'The emotional intensity of a decision',
+            'How much impact a decision or action will have',
+            'The level of conscious reasoning involved',
+            'The predictability of decision outcomes'
+        ],
+        correctAnswer: 'How much impact a decision or action will have'
+    },
+    {
+        week: 'other',
+        question: 'Hsee & Rottenstreich (2004) propose a dual-process view involving:',
+        options: [
+            'Only conscious reasoning in decision making',
+            'Solely unconscious reasoning driven by affect',
+            'Both deliberate and affective modes of decision making',
+            'A single process where reason always overrides emotion'
+        ],
+        correctAnswer: 'Both deliberate and affective modes of decision making'
+    },
+    {
+        week: 'other',
+        question: 'Which type of reasoning moves from general principles to specific conclusions?',
+        options: [
+            'Inductive reasoning',
+            'Abductive reasoning',
+            'Deductive reasoning',
+            'Analogical reasoning'
+        ],
+        correctAnswer: 'Deductive reasoning'
+    },
+    {
+        week: 'other',
+        question: 'In deductive reasoning, if the premises are true and the argument is valid, the conclusion must be:',
+        options: [ 'Uncertain', 'Probably true', 'True', 'False' ],
+        correctAnswer: 'True'
+    },
+    {
+        week: 'other',
+        question: 'A syllogism consists of:',
+        options: [
+            'One premise and one conclusion',
+            'Three premises and one conclusion',
+            'Two premises and a conclusion',
+            'A series of related statements'
+        ],
+        correctAnswer: 'Two premises and a conclusion'
+    },
+    {
+        week: 'other',
+        question: 'The "atmosphere effect" in syllogistic reasoning refers to how:',
+        options: [
+            'The truth of the premises influences the perceived validity of the conclusion',
+            'The specific content of the syllogism creates a bias',
+            'The quantifiers used in the premises create an expectation about the conclusion',
+            'Emotional factors affect logical reasoning'
+        ],
+        correctAnswer: 'The quantifiers used in the premises create an expectation about the conclusion'
+    },
+    {
+        week: 'other',
+        question: 'Modus Ponens is a valid inference that follows the form:',
+        options: [
+            'If p, then q; q; therefore p',
+            'If p, then q; not p; therefore not q',
+            'If p, then q; p; therefore q',
+            'If p, then q; not q; therefore not p'
+        ],
+        correctAnswer: 'If p, then q; p; therefore q'
+    },
+    {
+        week: 'other',
+        question: 'Modus Tollens is a valid inference that follows the form:',
+        options: [
+            'If p, then q; q; therefore p',
+            'If p, then q; not p; therefore not q',
+            'If p, then q; p; therefore q',
+            'If p, then q; not q; therefore not p'
+        ],
+        correctAnswer: 'If p, then q; not q; therefore not p'
+    },
+    {
+        week: 'other',
+        question: 'People often incorrectly interpret a conditional statement "if p, then q" as also meaning "if q, then p". This is known as:',
+        options: [
+            'The atmosphere effect',
+            'Modus Ponens fallacy',
+            'Bi-conditional interpretation',
+            'Confirmation bias'
+        ],
+        correctAnswer: 'Bi-conditional interpretation'
+    },
+    {
+        week: 'other',
+        question: 'In inductive reasoning, conclusions are:',
+        options: [
+            'Always valid',
+            'Always invalid',
+            'Uncertain and vary in their strength',
+            'Based on general principles'
+        ],
+        correctAnswer: 'Uncertain and vary in their strength'
+    },
+    {
+        week: 'other',
+        question: 'The "diversity effect" in inductive reasoning suggests that an argument is stronger when:',
+        options: [
+            'The examples are very similar',
+            'The conclusion is very specific',
+            'The examples represent a more varied set of categories',
+            'There are a large number of examples'
+        ],
+        correctAnswer: 'The examples represent a more varied set of categories'
+    },
+    {
+        week: 'other',
+        question: 'Problem solving by analogy relies heavily on:',
+        options: [
+            'Deductive reasoning',
+            'Inductive reasoning',
+            'Syllogistic reasoning',
+            'Wason\'s selection task'
+        ],
+        correctAnswer: 'Inductive reasoning'
+    },
+    {
+        week: 'other',
+        question: 'Judgment, in cognitive psychology, is defined as the human ability to:',
+        options: [
+            'Recall specific facts accurately',
+            'Follow logical rules precisely',
+            'Infer, estimate, and predict unknown events',
+            'Solve well-defined problems efficiently'
+        ],
+        correctAnswer: 'Infer, estimate, and predict unknown events'
+    },
+    {
+        week: 'other',
+        question: 'The availability heuristic is a judgemental bias based on:',
+        options: [
+            'How representative an event seems',
+            'The frequency of an event in the real world',
+            'The ease with which examples come to mind',
+            'Ignoring base rate information'
+        ],
+        correctAnswer: 'The ease with which examples come to mind'
+    },
+    {
+        week: 'other',
+        question: 'Illusory correlations refer to:',
+        options: [
+            'Accurately perceiving a strong relationship between two events',
+            'Failing to notice actual relationships between events',
+            'Perceiving a link between two events even when they are not linked',
+            'Underestimating the frequency of rare events'
+        ],
+        correctAnswer: 'Perceiving a link between two events even when they are not linked'
+    },
+    {
+        week: 'other',
+        question: 'The recognition heuristic suggests that when faced with two alternatives, we tend to choose the one that is:',
+        options: [ 'Less familiar', 'More complex', 'Recognizable', 'Associated with negative feelings' ],
+        correctAnswer: 'Recognizable'
+    },
+    {
+        week: 'other',
+        question: 'The representativeness heuristic involves basing judgements on:',
+        options: [
+            'The actual frequency of an event',
+            'How easily examples can be recalled',
+            'The degree to which an object represents our basic idea of that object',
+            'Ignoring specific information in favour of general knowledge'
+        ],
+        correctAnswer: 'The degree to which an object represents our basic idea of that object'
+    },
+    {
+        week: 'other',
+        question: 'The base rate fallacy occurs when people:',
+        options: [
+            'Overemphasize the frequency of events',
+            'Ignore the rate of occurrence of a category in the population',
+            'Rely too heavily on specific examples',
+            'Accurately assess probabilities based on limited information'
+        ],
+        correctAnswer: 'Ignore the rate of occurrence of a category in the population'
+    },
+    {
+        week: 'other',
+        question: 'The description of "Jack" provided in the text is used to illustrate:',
+        options: [
+            'The accurate application of base rates',
+            'The power of statistical information in judgement',
+            'The tendency to ignore base rates and rely on representativeness',
+            'The effectiveness of logical reasoning in probability tasks'
+        ],
+        correctAnswer: 'The tendency to ignore base rates and rely on representativeness'
+    },
+    {
+        week: 'other',
+        question: 'The "Linda problem" demonstrates:',
+        options: [
+            'The conjunction fallacy',
+            'The accurate use of probability rules',
+            'The representativeness heuristic leading to correct judgements',
+            'The base rate fallacy in reverse'
+        ],
+        correctAnswer: 'The conjunction fallacy'
+    },
+    {
+        week: 'other',
+        question: 'Misperception of event clusters refers to:',
+        options: [
+            'Accurately understanding random sequences',
+            'The tendency to see patterns in random events',
+            'Ignoring the possibility of multiple outcomes',
+            'Overestimating the predictability of independent events'
+        ],
+        correctAnswer: 'The tendency to see patterns in random events'
+    },
+    {
+        week: 'other',
+        question: 'Which of the following is NOT a basic component of a problem as defined in the text?',
+        options: [
+            'An initial state',
+            'A goal state',
+            'A set of rules',
+            'A readily available solution'
+        ],
+        correctAnswer: 'A readily available solution'
+    },
+    {
+        week: 'other',
+        question: 'A well-defined problem is characterized by:',
+        options: [
+            'A fuzzy goal state',
+            'Unclear constraints',
+            'A easily assessed solution',
+            'Difficulty in understanding the initial state'
+        ],
+        correctAnswer: 'A easily assessed solution'
+    },
+    {
+        week: 'other',
+        question: 'Writing a research paper is given as an example of a(n):',
+        options: [
+            'Well-defined problem',
+            'Routine problem',
+            'Ill-defined problem',
+            'Arrangement problem'
+        ],
+        correctAnswer: 'Ill-defined problem'
+    },
+    {
+        week: 'other',
+        question: 'Solving an anagram is given as an example of a(n):',
+        options: [
+            'Non-routine problem',
+            'Ill-defined problem',
+            'Well-defined problem',
+            'Transformational problem'
+        ],
+        correctAnswer: 'Well-defined problem'
+    },
+    {
+        week: 'other',
+        question: 'A routine problem can be solved by:',
+        options: [
+            'Developing novel strategies',
+            'Applying well-practiced procedures',
+            'Restructuring the problem elements',
+            'Experiencing sudden insight'
+        ],
+        correctAnswer: 'Applying well-practiced procedures'
+    },
+    {
+        week: 'other',
+        question: 'Verbal protocols in problem-solving research involve:',
+        options: [
+            'Measuring brain activity during problem solving',
+            'Observing participants\' non-verbal behaviour',
+            'Reports generated by problem solvers as they "think aloud"',
+            'Analyzing the final solutions to problems'
+        ],
+        correctAnswer: 'Reports generated by problem solvers as they "think aloud"'
+    },
+    {
+        week: 'other',
+        question: 'A transformational problem requires the solver to:',
+        options: [
+            'Arrange given elements',
+            'Generate many possible solutions',
+            'Find strategies to change the initial state to the goal state',
+            'Identify a pattern or rule from examples'
+        ],
+        correctAnswer: 'Find strategies to change the initial state to the goal state'
+    },
+    {
+        week: 'other',
+        question: 'Rearranging the letters "KIGVIN" to form another word is an example of a(n):',
+        options: [
+            'Divergent problem',
+            'Deduction problem',
+            'Arrangement problem',
+            'Induction problem'
+        ],
+        correctAnswer: 'Arrangement problem'
+    },
+    {
+        week: 'other',
+        question: 'Thinking of as many uses for bricks as possible is an example of a(n):',
+        options: [
+            'Transformational problem',
+            'Deduction problem',
+            'Arrangement problem',
+            'Divergent problem'
+        ],
+        correctAnswer: 'Divergent problem'
+    },
+    {
+        week: 'other',
+        question: 'The problem involving professors being caring and good is an example of a(n):',
+        options: [
+            'Arrangement problem',
+            'Divergent problem',
+            'Deduction problem',
+            'Transformational problem'
+        ],
+        correctAnswer: 'Deduction problem'
+    },
+    {
+        week: 'other',
+        question: 'Gestalt psychology viewed problem solving as a process of:',
+        options: [
+            'Gradual association building',
+            'Mindless playing out of learned responses',
+            'Restructuring or reorganizing problem elements leading to insight',
+            'Systematic application of algorithms'
+        ],
+        correctAnswer: 'Restructuring or reorganizing problem elements leading to insight'
+    },
+    {
+        week: 'other',
+        question: 'The sudden realization of a problem solution according to Gestalt psychology is termed:',
+        options: [ 'Algorithm', 'Heuristic', 'Insight', 'Mental set' ],
+        correctAnswer: 'Insight'
+    },
+    {
+        week: 'other',
+        question: 'Cognitive psychology views problem solving as:',
+        options: [
+            'A sudden flash of understanding',
+            'The application of innate knowledge',
+            'Information processing',
+            'Trial-and-error learning'
+        ],
+        correctAnswer: 'Information processing'
+    },
+    {
+        week: 'other',
+        question: 'The General Problem Solver (GPS) was a:',
+        options: [
+            'Theory of insight problem solving',
+            'Model of creative thinking',
+            'Computer program designed to model human problem solving',
+            'Gestalt principle of organization'
+        ],
+        correctAnswer: 'Computer program designed to model human problem solving'
+    },
+    {
+        week: 'other',
+        question: 'In the context of GPS, problem representation involves:',
+        options: [
+            'Ignoring the initial state',
+            'Focusing only on the goal state',
+            'Correctly specifying the problem space',
+            'Applying heuristics without defining the problem'
+        ],
+        correctAnswer: 'Correctly specifying the problem space'
+    },
+    {
+        week: 'other',
+        question: 'Algorithms are problem-solving techniques that:',
+        options: [
+            'Guarantee a solution if applied correctly',
+            'Are general rules of thumb',
+            'Always find the most efficient solution',
+            'Are particularly useful for ill-defined problems'
+        ],
+        correctAnswer: 'Guarantee a solution if applied correctly'
+    },
+    {
+        week: 'other',
+        question: 'A major shortcoming of using algorithms for many problems is their:',
+        options: [
+            'Uncertainty of leading to a correct solution',
+            'Overly simplistic nature',
+            'Tedious and impractical exhaustive nature',
+            'Inability to handle well-defined problems'
+        ],
+        correctAnswer: 'Tedious and impractical exhaustive nature'
+    },
+    {
+        week: 'other',
+        question: 'Heuristics are problem-solving strategies that serve as:',
+        options: [
+            'Guaranteed methods for finding solutions',
+            'Systematic sets of rules',
+            '"Shortcuts" through problem space',
+            'Complex mathematical formulas'
+        ],
+        correctAnswer: '"Shortcuts" through problem space'
+    },
+    {
+        week: 'other',
+        question: 'Means-Ends Analysis (MEA) involves:',
+        options: [
+            'Randomly trying different solutions',
+            'Focusing solely on the goal state',
+            'Devising means to reduce the difference between the current and goal state',
+            'Working backward from the goal state without considering sub-goals'
+        ],
+        correctAnswer: 'Devising means to reduce the difference between the current and goal state'
+    },
+    {
+        week: 'other',
+        question: 'Surface features of a problem refer to:',
+        options: [
+            'The underlying relationships among problem elements',
+            'The abstract structure of the problem',
+            'The specific elements of the problem',
+            'Analogies to other problems'
+        ],
+        correctAnswer: 'The specific elements of the problem'
+    },
+    {
+        week: 'other',
+        question: 'Structural features of a problem refer to:',
+        options: [
+            'The superficial details of the problem',
+            'How the problem is presented',
+            'The underlying relationships among the surface features',
+            'The ease with which the problem can be solved'
+        ],
+        correctAnswer: 'The underlying relationships among the surface features'
+    },
+    {
+        week: 'other',
+        question: 'Experts typically solve problems by:',
+        options: [
+            'Randomly applying different strategies',
+            'Relying solely on trial and error',
+            'Quickly recognizing familiar patterns',
+            'Focusing on surface similarities with past problems'
+        ],
+        correctAnswer: 'Quickly recognizing familiar patterns'
+    },
+    {
+        week: 'other',
+        question: 'The "intermediate effect" in expert problem solving refers to the finding that:',
+        options: [
+            'Experts are always better than novices at understanding all types of problems',
+            'Novices remember more information about specific problems than experts',
+            'Experts take longer to solve familiar problems',
+            'Experts are worse at solving randomly arranged problems'
+        ],
+        correctAnswer: 'Novices remember more information about specific problems than experts'
+    },
+    {
+        week: 'other',
+        question: "Wallas's (1926) four stages of creative problem solving include:",
+        options: [
+            'Preparation, Execution, Illumination, Verification',
+            'Incubation, Generation, Evaluation, Application',
+            'Preparation, Incubation, Illumination, Verification',
+            'Inspiration, Development, Refinement, Presentation'
+        ],
+        correctAnswer: 'Preparation, Incubation, Illumination, Verification'
+    },
+    {
+        week: 'other',
+        question: 'Insight in problem solving involves:',
+        options: [
+            'A gradual accumulation of knowledge',
+            'A systematic application of rules',
+            'The sudden realization of a problem solution',
+            'A lengthy period of conscious deliberation'
+        ],
+        correctAnswer: 'The sudden realization of a problem solution'
+    },
+    {
+        week: 'other',
+        question: 'The difficulty of insightful problems often lies in:',
+        options: [
+            'A lack of necessary information',
+            'The complexity of the required algorithms',
+            'A key but incorrect assumption',
+            'Too many possible solution paths'
+        ],
+        correctAnswer: 'A key but incorrect assumption'
+    },
+    {
+        week: 'other',
+        question: 'The "Aha!" experience is associated with:',
+        options: [
+            'Non-insightful problem solving',
+            'The initial stages of problem preparation',
+            'A sudden and tangible feeling of discovery',
+            'A prolonged period of incubation'
+        ],
+        correctAnswer: 'A sudden and tangible feeling of discovery'
+    },
+    {
+        week: 'other',
+        question: 'Metacognition refers to:',
+        options: [
+            'The ability to solve problems quickly',
+            'Knowledge of one\'s own thought processes',
+            'The experience of insight',
+            'The use of heuristics in problem solving'
+        ],
+        correctAnswer: 'Knowledge of one\'s own thought processes'
+    },
+    {
+        week: 'other',
+        question: 'Incubation in problem solving refers to:',
+        options: [
+            'The initial gathering of information',
+            'A period of inactivity after initial attempts',
+            'The sudden breakthrough of a solution',
+            'The verification of a solution\'s effectiveness'
+        ],
+        correctAnswer: 'A period of inactivity after initial attempts'
+    },
+    {
+        week: 'other',
+        question: "Smith's (1995) contextual view of incubation suggests that it is more likely to occur when:",
+        options: [
+            'The problem is too difficult to solve',
+            'The solver has not made any initial attempts',
+            'There is a contextual change from the previous situation',
+            'The solver continues to consciously work on the problem'
+        ],
+        correctAnswer: 'There is a contextual change from the previous situation'
+    },
+    {
+        week: 'other',
+        question: 'Creative solutions are generally considered to have two components:',
+        options: [
+            'Simplicity and efficiency',
+            'Novelty and appropriateness',
+            'Originality and predictability',
+            'Complexity and usefulness'
+        ],
+        correctAnswer: 'Novelty and appropriateness'
+    },
+    {
+        week: 'other',
+        question: 'Sternberg & Davidson (1995) cite which of the following as important processes in reaching creative insights?',
+        options: [
+            'Rote memorization',
+            'Selective encoding',
+            'Algorithm application',
+            'Base rate neglect'
+        ],
+        correctAnswer: 'Selective encoding'
+    },
+    {
+        week: 'other',
+        question: 'Dietrich (2004) characterizes creative insights based on:',
+        options: [
+            'Novelty and appropriateness',
+            'Preparation and incubation',
+            'Processing mode and knowledge domain',
+            'Convergent and divergent thinking'
+        ],
+        correctAnswer: 'Processing mode and knowledge domain'
+    },
+    {
+        week: 'other',
+        question: 'Which of the following is NOT typically considered a key property of language?',
+        options: [ 'Semanticity', 'Arbitrariness', 'Concreteness', 'Productivity' ],
+        correctAnswer: 'Concreteness'
+    },
+    {
+        week: 'other',
+        question: 'Phonemes are:',
+        options: [
+            'The smallest meaningful units of language',
+            'Units of language larger than words',
+            'The basic sound units of a language',
+            'Rules governing sentence structure'
+        ],
+        correctAnswer: 'The basic sound units of a language'
+    },
+    {
+        week: 'other',
+        question: 'The study of how phonemes can be combined in a language is called:',
+        options: [ 'Morphology', 'Syntax', 'Semantics', 'Phonology' ],
+        correctAnswer: 'Phonology'
+    },
+    {
+        week: 'other',
+        question: 'Morphemes are:',
+        options: [
+            'The basic sound units of a language',
+            'The smallest meaningful units of language',
+            'Rules for combining words into sentences',
+            'The overall meaning of sentences'
+        ],
+        correctAnswer: 'The smallest meaningful units of language'
+    },
+    {
+        week: 'other',
+        question: 'Syntax refers to the:',
+        options: [
+            'Meaning of words and sentences',
+            'Social rules of language use',
+            'Structure of a sentence',
+            'Basic sound units of language'
+        ],
+        correctAnswer: 'Structure of a sentence'
+    },
+    {
+        week: 'other',
+        question: 'Semantics is the branch of psycholinguistics devoted to the study of:',
+        options: [ 'Sentence structure', 'Language sounds', 'Meaning', 'Social context of language' ],
+        correctAnswer: 'Meaning'
+    },
+    {
+        week: 'other',
+        question: 'Pragmatics concerns the:',
+        options: [
+            'Literal meaning of words',
+            'Grammatical correctness of sentences',
+            'Social rules of language',
+            'Production of speech sounds'
+        ],
+        correctAnswer: 'Social rules of language'
+    },
+    {
+        week: 'other',
+        question: 'Grammar encompasses the rules for:',
+        options: [
+            'Socially appropriate language use',
+            'The meaning of individual words',
+            'A language',
+            'Non-verbal communication'
+        ],
+        correctAnswer: 'A language'
+    },
+    {
+        week: 'other',
+        question: 'The study of how speech sounds are produced is known as:',
+        options: [ 'Phonology', 'Semantics', 'Phonetics', 'Morphology' ],
+        correctAnswer: 'Phonetics'
+    },
+    {
+        week: 'other',
+        question: 'Place of articulation in phonetics refers to:',
+        options: [
+            'The vibration of vocal cords',
+            'How the airflow is obstructed',
+            'Where in the vocal tract the airflow is obstructed',
+            'Whether a sound produces a hissing effect'
+        ],
+        correctAnswer: 'Where in the vocal tract the airflow is obstructed'
+    },
+    {
+        week: 'other',
+        question: 'Manner of articulation in phonetics refers to:',
+        options: [
+            'The vibration of vocal cords',
+            'Mechanism of how the airflow is obstructed',
+            'Where in the vocal tract the airflow is obstructed',
+            'The specific vowel or consonant sound produced'
+        ],
+        correctAnswer: 'Mechanism of how the airflow is obstructed'
+    },
+    {
+        week: 'other',
+        question: '"Voicing" in phonetics refers to:',
+        options: [
+            'The loudness of a speech sound',
+            'The pitch of a speaker\'s voice',
+            'Vibration of vocal cords',
+            'The speed at which someone speaks'
+        ],
+        correctAnswer: 'Vibration of vocal cords'
+    },
+    {
+        week: 'other',
+        question: 'Preposing in sentence structure involves:',
+        options: [
+            'Removing a part of the sentence',
+            'Changing the tense of the verbs',
+            'Moving a certain part of the sentence to the front, usually for emphasis',
+            'Combining two short sentences into one'
+        ],
+        correctAnswer: 'Moving a certain part of the sentence to the front, usually for emphasis'
+    },
+    {
+        week: 'other',
+        question: 'According to the text, only constituents labeled as being whole phrases (NP/VP node) can undergo:',
+        options: [
+            'Deletion',
+            'Preposing or other movements',
+            'Transformation into single words',
+            'Changes in their semantic meaning'
+        ],
+        correctAnswer: 'Preposing or other movements'
+    },
+    {
+        week: 'other',
+        question: 'A phrase structure rule (rewrite rule) describes:',
+        options: [
+            'How to pronounce words correctly',
+            'The social context in which sentences are used',
+            'The ways in which certain symbols can be rewritten as other symbols',
+            'The underlying meaning of complex sentences'
+        ],
+        correctAnswer: 'The ways in which certain symbols can be rewritten as other symbols'
+    },
+    {
+        week: 'other',
+        question: 'A transformational rule in linguistics can:',
+        options: [
+            'Change the basic meaning of a sentence',
+            'Create new phonemes within a word',
+            'Turn one sentence structure into another',
+            'Define the semantic properties of nouns and verbs'
+        ],
+        correctAnswer: 'Turn one sentence structure into another'
+    },
+    {
+        week: 'other',
+        question: 'Anomaly in semantics refers to:',
+        options: [
+            'Sentences that have more than one meaning',
+            'Contradictory statements',
+            'Sentences that don\'t make logical sense',
+            'Sentences that express the same meaning'
+        ],
+        correctAnswer: 'Sentences that don\'t make logical sense'
+    },
+    {
+        week: 'other',
+        question: 'Self-contradiction in semantics occurs when:',
+        options: [
+            'A sentence has multiple interpretations',
+            'The different parts of a sentence logically clash',
+            'A word can have two different meanings',
+            'A sentence violates grammatical rules'
+        ],
+        correctAnswer: 'The different parts of a sentence logically clash'
+    },
+    {
+        week: 'other',
+        question: 'Ambiguity in semantics refers to:',
+        options: [
+            'A sentence that is grammatically incorrect',
+            'A sentence that has more than one possible meaning',
+            'A word that is difficult to pronounce',
+            'A sentence that expresses a false statement'
+        ],
+        correctAnswer: 'A sentence that has more than one possible meaning'
+    },
+    {
+        week: 'other',
+        question: 'Synonymy in semantics refers to:',
+        options: [
+            'Words that have opposite meanings',
+            'Sentences that have different grammatical structures',
+            'Words or phrases that have the same meaning',
+            'Sentences that are true under different conditions'
+        ],
+        correctAnswer: 'Words or phrases that have the same meaning'
+    },
+    {
+        week: 'other',
+        question: 'Entailment in semantics refers to:',
+        options: [
+            'The social implications of a spoken sentence',
+            'What must be true if a particular statement is true',
+            'The historical origin of a word\'s meaning',
+            'The emotional impact of a sentence on the listener'
+        ],
+        correctAnswer: 'What must be true if a particular statement is true'
+    },
+    {
+        week: 'other',
+        question: 'Understanding the meaning of a sentence requires:',
+        options: [
+            'Only knowing the definition of each word',
+            'Only understanding the syntax of the sentence',
+            'Understanding the meaning of each word, the syntax, and the truth conditions',
+            'Primarily focusing on the pragmatic context'
+        ],
+        correctAnswer: 'Understanding the meaning of each word, the syntax, and the truth conditions'
+    },
+    {
+        week: 'other',
+        question: 'Truth conditions of a sentence are:',
+        options: [
+            'The grammatical rules that govern its formation',
+            'The social context in which it is typically used',
+            'The circumstances that make the sentence true',
+            'The speaker\'s intentions when uttering the sentence'
+        ],
+        correctAnswer: 'The circumstances that make the sentence true'
+    },
+    {
+        week: 'other',
+        question: "Searle's (1979) speech act theory categorizes utterances based on:",
+        options: [
+            'Their grammatical complexity',
+            'The listener\'s emotional response',
+            'The kinds of actions they perform',
+            'The number of words they contain'
+        ],
+        correctAnswer: 'The kinds of actions they perform'
+    },
+    {
+        week: 'other',
+        question: 'An assertive speech act expresses:',
+        options: [
+            'An instruction to the listener',
+            'A commitment to a future action',
+            'The speaker\'s beliefs about some proposition',
+            'The speaker\'s psychological state'
+        ],
+        correctAnswer: 'The speaker\'s beliefs about some proposition'
+    },
+    {
+        week: 'other',
+        question: 'A directive speech act attempts to:',
+        options: [
+            'Commit the speaker to a later action',
+            'Express the speaker\'s feelings',
+            'Get the listener to do something',
+            'Declare a state of affairs'
+        ],
+        correctAnswer: 'Get the listener to do something'
+    },
+    {
+        week: 'other',
+        question: 'A commissive speech act:',
+        options: [
+            'Describes the speaker\'s current emotional state',
+            'Asserts the truth of a proposition',
+            'Commits the speaker to some later action',
+            'Instructs the listener to perform an action'
+        ],
+        correctAnswer: 'Commits the speaker to some later action'
+    },
+    {
+        week: 'other',
+        question: 'An expressive speech act serves to:',
+        options: [
+            'Make a statement about the world',
+            'Get the listener to perform an action',
+            'Commit the speaker to a future act',
+            'Describe the psychological state of the speaker'
+        ],
+        correctAnswer: 'Describe the psychological state of the speaker'
+    },
+    {
+        week: 'other',
+        question: 'A declarative speech act is one in which:',
+        options: [
+            'The speaker expresses a belief',
+            'The speaker instructs the listener',
+            'The utterance itself performs the action',
+            'The speaker commits to a future action'
+        ],
+        correctAnswer: 'The utterance itself performs the action'
+    },
+    {
+        week: 'other',
+        question: 'The phoneme restoration effect demonstrates that:',
+        options: [
+            'People can perfectly recall spoken sentences',
+            'Context can help fill in missing speech sounds',
+            'Listeners always consciously notice missing phonemes',
+            'Speech perception occurs purely bottom-up'
+        ],
+        correctAnswer: 'Context can help fill in missing speech sounds'
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];
 
 // Helper function to get unique week numbers
