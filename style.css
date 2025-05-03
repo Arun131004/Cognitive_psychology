@@ -369,3 +369,9 @@ select:focus {
     margin-bottom: 18px;
   }
 }
+
+/* Add to style.css */
+#perfect-score-congrats {
+    margin: 24px auto 0 auto;
+    text-align: center;
+}

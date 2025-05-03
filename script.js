@@ -104,8 +104,11 @@ function loadQuestion() {
         const questionData = currentWeekQuestions[currentQuestionIndex];
         questionText.textContent = `${currentQuestionIndex + 1}. ${questionData.question}`; // Add question number
 
+        // --- Shuffle options before displaying ---
+        const shuffledOptions = shuffleArray([...questionData.options]);
+
         // Create buttons for each option
-        questionData.options.forEach(optionText => {
+        shuffledOptions.forEach(optionText => {
             const button = document.createElement('button');
             button.textContent = optionText;
             button.addEventListener('click', handleOptionClick);
@@ -181,10 +184,39 @@ function updateScoreDisplay() {
 
 // Show final results for the week
 function showResults() {
-    quizArea.classList.add('hidden'); // Hide quiz area
-    resultsArea.classList.remove('hidden'); // Show results area
+    quizArea.classList.add('hidden');
+    resultsArea.classList.remove('hidden');
     finalScoreSpan.textContent = score;
     finalTotalSpan.textContent = currentWeekQuestions.length;
+
+    const congratsDiv = document.getElementById('perfect-score-congrats');
+    if (score === currentWeekQuestions.length && currentWeekQuestions.length > 0) {
+        congratsDiv.innerHTML = `
+            <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;">
+                <div class="tenor-gif-embed" data-postid="7995560765945148820" data-share-method="host" data-aspect-ratio="1" data-width="300px"></div>
+                <h3 style="color:#fff;margin-top:16px;text-align:center;">Congratulations, you got it all right!!!</h3>
+            </div>
+        `;
+        congratsDiv.classList.remove('hidden');
+
+        // Dynamically add the Tenor embed script if not already present
+        if (!document.getElementById('tenor-embed-script')) {
+            const script = document.createElement('script');
+            script.id = 'tenor-embed-script';
+            script.type = 'text/javascript';
+            script.async = true;
+            script.src = 'https://tenor.com/embed.js';
+            document.body.appendChild(script);
+        } else {
+            // If script already present, manually trigger Tenor's embed processing
+            if (window.Tenor && typeof window.Tenor.init === 'function') {
+                window.Tenor.init();
+            }
+        }
+    } else {
+        congratsDiv.innerHTML = '';
+        congratsDiv.classList.add('hidden');
+    }
 }
 
 // Handle going to the next question
